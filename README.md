@@ -4,3 +4,14 @@
 
 [github repository]
 
+## Purpose
+
+## Functionality
+
+## Sitemap
+
+## Screenshots
+
+## Target audience
+
+## Tech stack
