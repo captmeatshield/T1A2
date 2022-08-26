@@ -9,14 +9,16 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100vh;   
+    background-image: linear-gradient(rgb(39, 228, 149), rgb(78, 126, 106), rgb(39, 228, 149));
+
 }
 
 /* Nav bar */
 header {
     display: flex;
     align-items: center;
-    background: rgb(39, 228, 149);
+    /* background: rgb(39, 228, 149); */
     padding: 0.5rem 0.3rem;
 
 }
@@ -35,13 +37,12 @@ nav a {
     padding: 0.5rem;
 }
 
-/* main content */
+/* main content splash page */
 #hero {
     display: flex;
     font-family: 'Spectral', serif;
     align-items: center;
     flex-direction: column; 
-    background-image: linear-gradient(rgb(39, 228, 149), rgb(78, 126, 106), rgb(39, 228, 149));
     /* background-color: aquamarine; */
     padding: 2rem;
 }
@@ -53,16 +54,16 @@ nav a {
 
 #hero h1 {
     font-size: 3rem;
-    color: rgb(63, 63, 20);
+    color: #3f3f14;
     text-align: center;
 }
 
 /* socials */
 #socials    {
-        display: flex;
+    display: flex;
     flex-direction:column;
     align-items: center;
-    background: rgb(39, 228, 149);
+    /* background: rgb(39, 228, 149); */
     padding: 0.3rem 0.2rem;
 }
 
@@ -71,7 +72,45 @@ nav a {
     padding: 0.4rem;
 }
 
+/* footer */
 footer {
     text-align: center;
-    background-color: rgb(17, 206, 127);
+    /* background-color: rgb(17, 206, 127); */
 }
+
+/* About me page */
+
+#title {    
+    text-align: center;
+    color: #3f3f14;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
+}
+
+.checked {
+    
+
+.aboutmeslide { 
+    display: flex;
+    align-items: flex-end;
+}
+
+.aboutmeslide h3 {
+    font-family: 'Spectral', serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.aboutmeslide img {
+    border-radius: 1rem;
+    align-items: center;
+    width: 22vw;
+
+}
+
+.aboutmeslide p {
+    font-family: 'Rubik', serif;
+    text-align: center;
+
+}
+
