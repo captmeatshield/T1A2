@@ -9,13 +9,14 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 /* Nav bar */
 header {
     display: flex;
     align-items: center;
-    background: rgb(215, 228, 39);
+    background: rgb(39, 228, 149);
     padding: 0.5rem 0.3rem;
 
 }
@@ -34,15 +35,43 @@ nav a {
     padding: 0.5rem;
 }
 
-footer {
+/* main content */
+#hero {
     display: flex;
+    font-family: 'Spectral', serif;
+    align-items: center;
+    flex-direction: column; 
+    background-image: linear-gradient(rgb(39, 228, 149), rgb(78, 126, 106), rgb(39, 228, 149));
+    /* background-color: aquamarine; */
+    padding: 2rem;
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 20rem;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: rgb(63, 63, 20);
+    text-align: center;
+}
+
+/* socials */
+#socials    {
+        display: flex;
     flex-direction:column;
     align-items: center;
-    background: rgb(215, 228, 39);
+    background: rgb(39, 228, 149);
     padding: 0.3rem 0.2rem;
 }
 
-footer div a {
+#socials div a {
     justify-content: space-between;
     padding: 0.4rem;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(17, 206, 127);
 }
