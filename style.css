@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Spectral|Rubik"); */
+@import url("https://fonts.googleapis.com/css?family=Spectral|Rubik");
 
 *   {
     box-sizing: border-box;
@@ -14,5 +14,35 @@ body {
 /* Nav bar */
 header {
     display: flex;
-    
+    align-items: center;
+    background: rgb(215, 228, 39);
+    padding: 0.5rem 0.3rem;
+
+}
+
+nav {
+    margin-left: auto;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    border: 2px solid rgb(35, 30, 102);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgb(215, 228, 39);
+    padding: 0.3rem 0.2rem;
+}
+
+footer div a {
+    justify-content: space-between;
+    padding: 0.4rem;
 }
