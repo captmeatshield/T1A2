@@ -99,6 +99,10 @@ footer {
 
 }
 
+.aboutmebox img {
+    border-radius: 25%;
+}
+
 .aboutmebox h3 {
     font-size: 2rem;
     font-family: 'Spectral', serif;
@@ -108,6 +112,10 @@ footer {
     font-family: 'Rubik', serif;
     text-align: center;
 }
+
+/* swap titles */
+.hidden-title { display: none; } 
+
 @media screen and (min-width: 642px) {
 
 .aboutmebox  {
@@ -115,9 +123,34 @@ footer {
        padding: 2rem;    
 }
 
+.aboutmebox p {
+    padding: 0.5rem;
+}
+
 .about-head {
     display: none;
+}    
+
+.hidden-title { 
+    display: block;
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+} 
 }
+
+@media screen and (min-width: 864px){
+
+.aboutmebox {
+    width: 870px;
+}
+
+.aboutmebox p {
+    padding: 0 2rem;
+}
+    
+}
+
+
 
 /* flex goal */
 
