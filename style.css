@@ -14,12 +14,17 @@ body {
 
 }
 
+body a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+}
+
 /* Nav bar */
 header {
     display: flex;
     align-items: center;
     /* background: rgb(39, 228, 149); */
-    padding: 0.5rem 0.3rem;
+    padding: 0.4rem 0.3rem;
 
 }
 
@@ -27,7 +32,7 @@ nav {
     margin-left: auto;
     text-decoration: none;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
 nav a {
@@ -36,6 +41,7 @@ nav a {
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
+
 
 /* main content splash page */
 #hero {
@@ -79,7 +85,6 @@ footer {
 }
 
 /* About me page */
-
 #title {    
     text-align: center;
     color: #3f3f14;
@@ -87,12 +92,40 @@ footer {
     font-family: 'Spectral', serif;
 }
 
-.checked {
-    
+.aboutmebox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aboutmebox h3 {
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+}
+
+.aboutmebox p {
+    font-family: 'Rubik', serif;
+    text-align: center;
+}
+@media screen and (min-width: 642px) {
+
+.aboutmebox  {
+       flex-direction: row;
+       padding: 2rem;    
+}
+
+.about-head {
+    display: none;
+}
+
+/* flex goal */
+
+/*
 
 .aboutmeslide { 
-    display: flex;
     align-items: flex-end;
+    display: none;
 }
 
 .aboutmeslide h3 {
@@ -105,7 +138,7 @@ footer {
     border-radius: 1rem;
     align-items: center;
     width: 22vw;
-
+ 
 }
 
 .aboutmeslide p {
@@ -113,4 +146,4 @@ footer {
     text-align: center;
 
 }
-
+ */
