@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://gitlab.common-lisp.net/cl-couch/cl-couch.common-lisp.dev/-/blob/master/.gitlab-ci.yml
+HostUrl=https://gitlab.common-lisp.net/cl-couch/cl-couch.common-lisp.dev/-/raw/master/.gitlab-ci.yml?inline=false
