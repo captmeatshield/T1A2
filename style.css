@@ -34,14 +34,14 @@ nav a:hover {
     transition: 0.5s;
 }
 
-nav a.active {}
+/* nav a.active {} */
 
 /* Nav bar */
 header {
     display: flex;
     align-items: center;
     /* background: rgb(39, 228, 149); */
-    padding: 0.4rem 0.3rem;
+    margin: 0.4rem 0.3rem;
 
 }
 
@@ -230,10 +230,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 2rem;
 }
 
+/* padding and border radius to make look like D*/
 #prof-pic {
     width: 20rem;
     padding-left: 4rem;
@@ -243,6 +244,7 @@ footer {
 .exp {
     display: flex;
     flex-wrap: wrap;
+    padding: 0.5rem;
 }
 
 .exp ul {
@@ -268,3 +270,14 @@ footer {
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
 }
+
+/* @media Screen and  (max-width:1056x) {
+} */
+
+/* Blogs */
+
+#article-head{
+
+}
+
+.article-sub
