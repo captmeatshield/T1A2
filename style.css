@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Spectral|Rubik");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins');
 
 *   {
     box-sizing: border-box;
@@ -276,8 +277,87 @@ footer {
 
 /* Blogs */
 
-#article-head{
+.blogs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-.article-sub
+
+.article-head   {
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 188, 209);
+    margin: 1.2rem;
+}
+
+.article-head h3 {
+    font-size: 2rem;
+    font-family: 'Abril', serif;
+}
+.article-head img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 
+aside {
+    width: 60%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+} */
+
+.article-sub    { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(164, 188, 209);
+    margin: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.article-sub img {
+    display: block;
+    width: 100%;
+}
+.article-sub h4 {
+    font-family: 'Abril', serif;
+    font-size: 1.5rem;
+
+
+}
+
+.blerb-con {
+    font-family: 'Poppins', serif;
+}
+
+.credit {
+    font-size: 0.1rem;
+}
+
+@media screen and (min-width: 546px) {
+
+    .article-head  {
+        width: 88vw;
+}
+     .article-sub  { 
+    width: 40vw;
+}
+
+}
+
+@media screen and (min-width: 816px) {
+
+.article-head   {
+    width: 80vw;
+}
+.article-sub    { 
+    width: 20vw;
+}
+
+}
