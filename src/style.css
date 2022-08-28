@@ -22,6 +22,10 @@ nav a:hover {
     background-color: #ddd;
 }
 
+nav a.active {
+    background-color: aliceblue;
+  }
+
 #socials a:hover {
     display: inline-block;
     transform: scale(1.1);
